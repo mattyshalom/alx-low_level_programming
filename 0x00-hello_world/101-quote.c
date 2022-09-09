@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  *main - print size of data
- *  
+ *
  *Return: Always 0
  */
 int main(void)
