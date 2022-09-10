@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * Description: main - Print reverse lowercase to stdout.
- * return: 0.
+ * return: 0 if successful.
  */
 int main(void)
 {
