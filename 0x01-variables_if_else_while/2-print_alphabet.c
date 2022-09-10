@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	for(int x = 'A'; x <= 'Z'; x++);
+	char low;
+	
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		putchar(tolower(x));
+		putchar(low);
 	}
+	printf("\n");
+
 	return (0);
 }
