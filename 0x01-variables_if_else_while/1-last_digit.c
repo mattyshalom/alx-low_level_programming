@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * A program to assign random number to variable, print string to stdout
+ * Description: main assign number to variable, print string to stdout
  * Return: 0 if sucessfull.
  */
 int main(void)
