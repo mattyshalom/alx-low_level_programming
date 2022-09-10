@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Description: main assign number to variable, print string to stdout
+ * Description: main - print string to stdout.
  * Return: 0 if sucessfull.
  */
 int main(void)
