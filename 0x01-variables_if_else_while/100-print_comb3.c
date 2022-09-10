@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Description: main To print combination two digits.
+ * Description: main -print two digits.
  * Return: 0 if run successfully.
  */
 int main(void)
