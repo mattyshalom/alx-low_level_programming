@@ -9,7 +9,7 @@ int main(void)
 {
 	int a, b, c, d;
 
-	for (a = 0; a < 1000; i++)
+	for (a = 0; a < 1000; a++)
 	{
 		b = a / 100;
 		c = (a / 10) % 10;
