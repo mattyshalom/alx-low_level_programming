@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Description: main print digits to stdout.
+ * Description: main - to print stdout.
  * Return: 0 if run successfully.
  */
 int main(void)
