@@ -5,13 +5,11 @@
  */
 int main(void)
 {
-	char putchar[] = "_putchar";
-	int i = 0;
+	char word[8] = "_putchar";
+	int i;
 
-	while (putchar[i] != '\0')
-	{
-		_putchar(putchar[i]); i++;
-	}
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
 	_putchar('\n);
 
 	return (0);
