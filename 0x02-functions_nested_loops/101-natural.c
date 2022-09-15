@@ -3,8 +3,8 @@
 #include <math.h>
 /**
  * main: conatin our list of natural numbers
- * Description: to computes and prints the sum of all multiples of 3 or 5 below 1024
- * return:0 when successful
+ * Description: to print the sum of all multiples of 3 or 5 below 1024
+ * return: 0 when successful
  */
 int main(void)
 {
@@ -17,6 +17,7 @@ int main(void)
 			total += h;
 		else if (h % 5 == 0)
 			total += h;
+
 		h++;
 	}
 	printf("%d\n", total);
