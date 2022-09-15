@@ -3,7 +3,7 @@
 #include <math.h>
 /**
  * main: main contain our list of natural numbers
- * Description: to print the sum of all multiples of 3 or 5 below 1024
+ * Description - Print the sum of all multiples of 3 or 5 below 1024
  * Return: 0 when successful
  */
 int main(void)
