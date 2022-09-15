@@ -1,4 +1,4 @@
-#inlclude "main.h"
+#include "main.h"
 /**
  * print_sign - to print sign of a number.
  * @n: an int that can be negative or positive
