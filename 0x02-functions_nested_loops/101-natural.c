@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main: conatin our list of natural numbers
+ * main: main contain our list of natural numbers
  * Description: to print the sum of all multiples of 3 or 5 below 1024
- * return: 0 when successful
+ * Return: 0 when successful
  */
 int main(void)
 {
