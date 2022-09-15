@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * time_table - print the 9 time table starting with 0
+ * times_table - print the 9 time table starting with 0
  * Return: 0 when successful
  */
 void times_table(void)
