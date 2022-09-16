@@ -7,12 +7,15 @@
  */
 void print_most_numbers(void)
 {
-	int num;
+	char ch;
 
-	for (num = 0; num <= 9; num++)
+	for (ch = 0; ch < 10; ch++)
 	{
-		if (num != 2 && num != 4)
-			_putchar((num % 10) + '0');
+		if ((ch == 2) || (ch == 4))
+		{
+			continue;
+		}
+		_putchar('0' + ch);
 	}
 	_putchar('\n');
 }
