@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen - returns the lenght of a string.
- * @s: the string.
- * Retun: the lenth of a string.
+ * _strlen - returns the lenght of a string
+ * @s: string
+ * Retun: the lenth of a string
  */
 
 int _strlen(char *s)
