@@ -1,19 +1,14 @@
 #include "main.h"
 
 /**
-
  * print_number - prints an integer.
-
  * @n: input integer.
-
  * Return: no return.
-
  */
-
 void print_number(int n)
 {
 	unsigned int m, d, count;
-	
+
 	if (n < 0)
 	{
 		_putchar(45);
@@ -23,9 +18,9 @@ void print_number(int n)
 	{
 		m = n;
 	}
-		d = m;
-		count = 1;
-	
+
+	d = m;
+	count = 1;
 	while (d > 9)
 	{
 		d /= 10;
