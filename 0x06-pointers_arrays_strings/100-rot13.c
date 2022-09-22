@@ -3,7 +3,6 @@
 /**
  * rot13 - encodes a string in rot13
  * @s: string to be encoded
- *
  * Return: the resulting string
  */
 char *rot13(char *s)
@@ -11,6 +10,7 @@ char *rot13(char *s)
 	int count = 0, i;
 	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+
 	while (*(s + count) != '\0')
 	{
 		for (i = 0; i < 52; i++)
