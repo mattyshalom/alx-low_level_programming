@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_ichessboard - prints the sum of the two diagonals.
+ * print_chessboard - prints the sum of the two diagonals.
  * @a: source matrix
  *
  *
