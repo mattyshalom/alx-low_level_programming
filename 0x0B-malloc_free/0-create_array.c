@@ -23,7 +23,7 @@ char *create_array(unsigned int size, char c)
 
 	return (NULL);
 
-	while (i < (int)size /* set array values to char c */
+	while (i < (int)size) /* set array values to char c */
 	{
 		*(arr + i) = c;
 		i++;
