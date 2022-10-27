@@ -1,23 +1,22 @@
 #include "main.h"
 
 /**
-* get_bit - a function that returns the value of a bit at a given index
-* @n: the integer to be operated on
-* @index: the index starting from 0
-* Return: returns the value of the bit at index or -1 on error
+* set_bit - a function that sets the value of a bit to 1 at a given index
+* @n: the number to be operated on
+* @index: the index
+* Return: returns 1 (Success), -1 (error)
 */
 
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
+	int mask;
+
 	if (index > 63)
 		return (-1);
 
-	n >>= index;
+	mask = 1 << index;
 
-	if ((n & 1) == 1)
-		return (1);
-	else
-		return (0);
+	*n = (*n & ~mask) | (1 << index);
 
-	return (-1);
+	return (1);
 }
